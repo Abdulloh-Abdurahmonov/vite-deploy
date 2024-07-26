@@ -18,7 +18,7 @@ export default function Contact() {
           <a
             href="#"
             target="_blank"
-            className="flex items-center gap-[16px] text-white bg-[#9D9D9D] max-w-[400px] w-[100%] h-[64px] justify-center km:max-w-[242px] km:h-[57px] km:rounded-[4px] km:text-[18px] hover:bg-[#5e5e5e] transition-all duration-300"
+            className="flex items-center gap-[16px] text-white bg-[#9D9D9D] max-w-[400px] w-[100%] h-[64px] justify-center kl:max-w-[242px] kl:h-[57px] kl:rounded-[4px] kl:text-[18px] hover:bg-[#5e5e5e] transition-all duration-300"
           >
             <img src={email} alt="" />
             hi@yourname.com

@@ -14,11 +14,11 @@ export default function Header() {
     <>
     <div className={`${
           nav ? "w-[0%]" : "w-full"
-        } bg-[rgba(0,0,0,0.4)] transition-all duration-100  backdrop-blur-lg z-20 overlay  fixed top-[81.14px] right-0 `}></div>
+        } bg-[rgba(0,0,0,0.4)] transition-all duration-300  backdrop-blur-lg z-20 overlay  fixed top-[81.14px] right-0 `}></div>
       <div
         className={`${
           nav ? "w-[0%]" : "w-[80%]"
-        } overflow-x-hidden hidden sm:flex fixed right-[0] bg-[#323232b2] backdrop-blur-md modal top-[81.14px] pt-[40px] transition-all duration-[.3s] z-20`}
+        } overflow-x-hidden hidden sm:flex fixed right-[0] bg-[#323232b2] backdrop-blur-md modal top-[81.14px] pt-[40px] transition-all duration-[.5s] z-20`}
       >
         <ul className="flex w-[100%] flex-col items-center gap-[26px]">
           <li className="">
