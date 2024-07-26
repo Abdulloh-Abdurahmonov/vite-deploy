@@ -26,11 +26,12 @@ export default function Work() {
                 
                 return (
                   <>
-                  <a href="#" target="_blank"
+                    <a
+                      href="#"
+                      target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
                     >
-                     
-                      <span 
+                      <span
                         className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100 mt-[-100px] group-hover:mt-0 duration-500`}
                       >
                         InVersion
@@ -38,7 +39,7 @@ export default function Work() {
                       <img
                         src={item}
                         alt=""
-                        className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px]  brightness-100 group-hover:brightness-50"
+                        className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px] km:h-[450px] sm:h-[450px] sl:h-[500px] brightness-100 group-hover:brightness-50"
                       />
                     </a>
                   </>
