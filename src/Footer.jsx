@@ -5,16 +5,16 @@ export default function Footer() {
     <>
       <footer className="w-full pt-12 pb-9 border-t border-[#696969]">
         <div className="max-w-[1288px] w-full ml-auto mr-auto px-5 flex items-end justify-between sm:flex-col-reverse sm:items-center sm:gap-[35px]">
-          <a
-            href="#"
+          <span
+           
             className="text-[#959595] text-base font-semibold leading-9"
           >
-            Made by <span className="text-white">Your Name</span> — Copyright
+            Made by <a href="#" target="_blank" className="text-white">Your Name</a> — Copyright
             2021
-          </a>
+          </span>
           <ul className="flex items-center gap-8">
             <li>
-              <a href="#" className="">
+              <a href="#" target="_blank">
                 <svg
                   className="h-[26px]"
                   xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" target="_blank">
                 <svg
                   className="h-[22px]"
                   width="23"
@@ -49,7 +49,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" target="_blank" >
                 <svg
                   className="h-[22px]"
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" target="_blank">
                 <svg
                   className="h-[22px]"
                   xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" target="_blank">
                 <svg
                   className="h-[22px]"
                   xmlns="http://www.w3.org/2000/svg"

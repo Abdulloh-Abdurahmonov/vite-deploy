@@ -12,11 +12,9 @@ export default function Header() {
 
   return (
     <>
-      {/* {nav ? null : (
-          <div
-            className="absolute top-0 left-0 bg-transparent w-[100%] h-[100%]"
-            onClick={navToggle}></div>
-        )} */}
+    <div className={`${
+          nav ? "w-[0%]" : "w-full"
+        } bg-[rgba(0,0,0,0.4)] transition-all duration-100  backdrop-blur-lg z-20 overlay  fixed top-[81.14px] right-0 `}></div>
       <div
         className={`${
           nav ? "w-[0%]" : "w-[80%]"
@@ -52,7 +50,7 @@ export default function Header() {
           </li>
         </ul>
       </div>
-      <header className="header fixed w-[100%] top-0 bg-[#323232B2] pt-[20px] pb-[19.15px] mb-[129px] z-20 backdrop-blur-md">
+      <header className="header fixed w-[100%] top-0 bg-[#323232B2] pt-[20px] pb-[19.15px] z-20 backdrop-blur-md">
         <div className="header-container max-w-[1275px] px-[20px] ml-auto mr-auto flex items-center justify-between">
           <a href="#" className="logo-link flex">
             <img src={logo} alt="" className="logo-img" />

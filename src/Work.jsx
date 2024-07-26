@@ -14,8 +14,8 @@ export default function Work() {
       <section className="mb-[240px] pt-[157px]" id="work">
         <div className="flex flex-col items-start max-w-[1288px] w-[100%] ml-auto mr-auto px-[20px] ">
           <a
-            href="#"
-            className="flex items-center gap-[32px] text-[16px] text-[#DEDEDE] uppercase mb-[80px] md:capitalize "
+            href="#proj"
+            className="flex items-center gap-[32px] text-[16px] text-[#DEDEDE] uppercase mb-[80px] kl:mb-10 md:capitalize "
           >
             <img src={arrow} alt="" />
             Featured Work
@@ -23,31 +23,24 @@ export default function Work() {
           <div className="flex gap-[24px] items-start kl:flex-col">
             <div className="flex flex-col gap-[24px] items-center w-[49%]  kl:w-[100%]">
               {lst1.map(function (item, index) {
-                const [a, setA] = useState(true);
-                function closeA() {
-                  setA(true);
-                }
-                function openA() {
-                  setA(false);
-                }
-
+                
                 return (
                   <>
-                  <div
+                  <a href="#" target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
                     >
                      
-                      <span
-                        className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100`}
+                      <span 
+                        className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100 mt-[-100px] group-hover:mt-0 duration-500`}
                       >
                         InVersion
                       </span>
                       <img
                         src={item}
                         alt=""
-                        className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px] km:h-[450px] sm:h-[450px] sl:h-[500px] brightness-100 group-hover:brightness-50"
+                        className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px]  brightness-100 group-hover:brightness-50"
                       />
-                    </div>
+                    </a>
                   </>
                 );
               })}{" "}
@@ -57,12 +50,12 @@ export default function Work() {
                 
                 return (
                   <>
-                    <div
+                    <a href="#" target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
                     >
                      
-                      <span
-                        className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100`}
+                      <span 
+                        className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100 mt-[-100px] group-hover:mt-0 duration-500`}
                       >
                         InVersion
                       </span>
@@ -71,7 +64,7 @@ export default function Work() {
                         alt=""
                         className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px] km:h-[450px] sm:h-[450px] sl:h-[500px] brightness-100 group-hover:brightness-50"
                       />
-                    </div>
+                    </a>
                   </>
                 );
               })}

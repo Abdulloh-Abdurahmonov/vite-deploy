@@ -12,46 +12,46 @@ import img9 from "./img/visual9.jpg";
 export default function Visual() {
   return (
     <>
-      <section className="mb-[240px]">
+      <section className="mb-[240px] sl:mb-[200px]" id='proj'>
         <div className="flex flex-col items-center max-w-[1288px] px-[20px] ml-auto mr-auto mb-[240px]">
           <h3 className="text-[36px] leading-[49.18px] mb-[65px] text-[#DEDEDE]">
             Visual Explorations
           </h3>
-          <div className="grid grid-cols-3 gap-3 sl:grid-cols-2 kl:grid-cols-1">
-            <div className="">
+          <div className="grid grid-cols-3 grid-rows-2 gap-3 sl:grid-cols-2 kl:grid-cols-1">
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden transition-all duration-300 hover:mt-[-12px] hover:rotate">
               <img className="w-full rounded-[4px]" src={img1} alt="" />
-            </div>
-            <div className="">
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden transition-all duration-300 hover:mt-[-12px] hover:rotate">
               <img className="w-full rounded-[4px]" src={img2} alt="" />
-            </div>
-            <div className="">
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden transition-all duration-300 hover:mt-[-12px] hover:rotate">
               <img className="w-full rounded-[4px]" src={img3} alt="" />
-            </div>
-            <div className="">
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden transition-all duration-300 hover:mt-[-12px] hover:rotate">
               <img className="w-full rounded-[4px]" src={img4} alt="" />
-            </div>
-            <div className="">
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden transition-all duration-300 hover:mt-[-12px] hover:rotate">
               <img className="w-full rounded-[4px]" src={img5} alt="" />
-            </div>
-            <div className="">
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden transition-all duration-300 hover:mt-[-12px] hover:rotate">
               <img className="w-full rounded-[4px]" src={img6} alt="" />
-            </div>
+            </a>
           </div>
         </div>
         <div className=" flex flex-col items-center max-w-[1288px] px-[20px] ml-auto mr-auto">
           <h3 className="text-[36px] leading-[49.18px] mb-[65px] text-[#DEDEDE]">
-            Persanal Projects
+            Personal Projects
           </h3>
           <div className="grid grid-cols-3 gap-3 sl:grid-cols-1 kl:grid-cols-1">
-            <div className="">
-              <img className="w-full rounded-[4px]" src={img7} alt="" />
-            </div>
-            <div className="">
-              <img className="w-full rounded-[4px]" src={img8} alt="" />
-            </div>
-            <div className="">
-              <img className="w-full rounded-[4px]" src={img9} alt="" />
-            </div>
+            <a href="#" target="_blank" className="  w-full overflow-hidden">
+              <img className="w-full rounded-[4px] transition-all duration-300 hover:scale-[1.2] kl:h-[600px] object-cover" src={img7} alt="" />
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden">
+              <img className="w-full rounded-[4px] transition-all duration-300 hover:scale-[1.2] kl:h-[600px] object-cover" src={img8} alt="" />
+            </a>
+            <a href="#" target="_blank" className="imgGroup  w-full overflow-hidden">
+              <img className="w-full rounded-[4px] transition-all duration-300 hover:scale-[1.2] kl:h-[600px] object-cover" src={img9} alt="" />
+            </a>
           </div>
         </div>
       </section>
