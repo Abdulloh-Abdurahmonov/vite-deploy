@@ -11,7 +11,7 @@ const lst2 = [img2, img4];
 export default function Work() {
   return (
     <>
-      <section className="mb-[240px] pt-[157px]" id="work">
+      <section className="mb-[240px] pt-[157px] sm:mb-[116px]rain" id="work">
         <div className="flex flex-col items-start max-w-[1288px] w-[100%] ml-auto mr-auto px-[20px] ">
           <a
             href="#proj"
