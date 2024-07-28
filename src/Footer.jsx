@@ -6,7 +6,6 @@ export default function Footer() {
       <footer className="w-full pt-12 pb-9 border-t border-[#696969]">
         <div className="max-w-[1288px] w-full ml-auto mr-auto px-5 flex items-end justify-between sm:flex-col-reverse sm:items-center sm:gap-[35px]">
           <span
-           
             className="text-[#959595] text-base font-semibold leading-9"
           >
             Made by <a href="#" target="_blank"  className="text-white">Your Name</a> — Copyright

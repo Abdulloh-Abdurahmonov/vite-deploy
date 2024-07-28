@@ -1,15 +1,15 @@
 import { useState } from "react";
-import img1 from "./img/visual1.jpg";
-import img2 from "./img/visual2.jpg";
-import img3 from "./img/visual3.jpg";
-import img4 from "./img/visual4.jpg";
-import img5 from "./img/visual5.jpg";
-import img6 from "./img/visual6.jpg";
-import img7 from "./img/visual7.jpg";
-import img8 from "./img/visual8.jpg";
-import img9 from "./img/visual9.jpg";
+import img1 from "../img/visual1.jpg";
+import img2 from "../img/visual2.jpg";
+import img3 from "../img/visual3.jpg";
+import img4 from "../img/visual4.jpg";
+import img5 from "../img/visual5.jpg";
+import img6 from "../img/visual6.jpg";
+import img7 from "../img/visual7.jpg";
+import img8 from "../img/visual8.jpg";
+import img9 from "../img/visual9.jpg";
 
-export default function Visual() {
+export default function Home_Visual() {
   return (
     <>
       <section className="mb-[240px] sl:mb-[200px]" id='proj'>

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import email from "./img/email.svg";
+import email from "../img/email.svg";
 
 
 
-export default function Contact() {
+export default function Home_Contact() {
   return (
     <>
       <section className="mb-[120px]" id="contact">

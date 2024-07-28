@@ -1,14 +1,14 @@
 import { useState } from "react";
-import arrow from "./img/arrow.svg";
-import img1 from "./img/img1.jpeg";
-import img2 from "./img/img2.jpeg";
-import img3 from "./img/img3.jpeg";
-import img4 from "./img/img4.jpeg";
+import arrow from "../img/arrow.svg";
+import img1 from "../img/img1.jpeg";
+import img2 from "../img/img2.jpeg";
+import img3 from "../img/img3.jpeg";
+import img4 from "../img/img4.jpeg";
 
 const lst1 = [img1, img3];
 const lst2 = [img2, img4];
 
-export default function Work() {
+export default function Home_Work() {
   return (
     <>
       <section className="mb-[240px] pt-[157px] sm:mb-[116px]rain" id="work">
@@ -54,7 +54,6 @@ export default function Work() {
                     <a href="#" target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
                     >
-                     
                       <span 
                         className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100 mt-[-100px] group-hover:mt-0 duration-500`}
                       >

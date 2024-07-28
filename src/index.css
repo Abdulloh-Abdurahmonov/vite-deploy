@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: 'Manrope', sans-serif;
+}
+
 .modal {
   height: calc(100vh - 81.14px);
 }
@@ -15,4 +19,14 @@
 
 .over {
   overflow: hidden;
+}
+
+.solution-box:nth-child(2n){
+  flex-direction: row-reverse;
+}
+
+@media (max-width:480px){
+  .solution-box:nth-child(2n){
+    flex-direction: column-reverse;
+  }
 }

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import avatar from "./img/me.jpg";
-import email from "./img/email.svg";
+import avatar from "../img/me.jpg";
+import email from "../img/email.svg";
 
-export default function Hero() {
+export default function Home_Hero() {
   return (
     <>
       <section className=" pt-[210.14px] kl:pt-[153.14px]" id="hero">
