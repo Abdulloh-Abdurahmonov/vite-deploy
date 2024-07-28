@@ -5,7 +5,7 @@ export default function CoWorking() {
     <>
       <section className="w-full mb-[100px] kl:mb-[87px]">
         <div className="max-w-[1288px] w-full px-5 ml-auto mr-auto flex flex-col items-star gap-28">
-          <div className="w-[344px] flex flex-col gap-3">
+          <div className="max-w-[344px] flex flex-col gap-3">
             <span className="uppercase font-700 text-base leading-4 tracking-[1.5px] text-[#a5a5a5]">
               Covibe
             </span>
