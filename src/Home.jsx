@@ -3,7 +3,7 @@ import Home_Work from "./Home/Home_Work";
 import Home_Visual from "./Home/Home_Visual";
 import Home_Contact from "./Home/Home_Contact.jsx";
 
-export default function Home(params) {
+export default function Home() {
   return (
     <>
       <Home_Hero></Home_Hero>
