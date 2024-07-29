@@ -23,10 +23,10 @@ export default function Home_Work() {
           <div className="flex gap-[24px] items-start kl:flex-col">
             <div className="flex flex-col gap-[24px] items-center w-[49%]  kl:w-[100%]">
               {lst1.map(function (item, index) {
-                
                 return (
                   <>
                     <a
+                      key={index}
                       href="#"
                       target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
@@ -48,13 +48,14 @@ export default function Home_Work() {
             </div>
             <div className="flex flex-col gap-[24px] items-center w-[49%]  kl:w-[100%] mt-[138px] kl:m-0">
               {lst2.map(function (item, index) {
-                
                 return (
                   <>
-                    <a href="#" target="_blank"
+                    <a key={index}
+                      href="#"
+                      target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
                     >
-                      <span 
+                      <span
                         className={`z-50 absolute transition-all top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[40px] text-[#DEDEDE] opacity-0 group-hover:opacity-100 mt-[-100px] group-hover:mt-0 duration-500`}
                       >
                         InVersion
