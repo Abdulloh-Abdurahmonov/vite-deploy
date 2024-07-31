@@ -1,25 +1,23 @@
 import { useState } from "react";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import RootLayout from "./Layouts/RootLayout";
+
+import Header from "./Header";
+import Footer from "./Footer";
 function App() {
-  const routes = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
-        <Route index element={<Home />} />,
-        <Route path="work" element={<About />} />,
-      </Route>
-    )
-  );
   return (
     <>
-      <RouterProvider router={routes} />
+      <BrowserRouter>
+        <Header></Header>
+
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="work" element={<About />} />
+        </Routes>
+
+        <Footer></Footer>
+      </BrowserRouter>
     </>
   );
 }
