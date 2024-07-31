@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "./img/Logos.svg";
 import navbar from "./img/Navbar.svg";
+import {Link} from 'react-router-dom'
 
 export default function Header() {
   const [nav, setNav] = useState(true);
@@ -22,39 +23,39 @@ export default function Header() {
       >
         <ul className="flex w-[100%] flex-col items-center gap-[26px]">
           <li className="">
-            <a
+            <Link
               onClick={navToggle}
-              href="#hero"
+              to="/"
               className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s] sm:text-[24px] "
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="">
-            <a
+            <Link
               onClick={navToggle}
-              href="#work"
+              to="/work"
               className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s] sm:text-[24px] "
             >
               Work
-            </a>
+            </Link>
           </li>
           <li className="">
-            <a
+            <Link
               onClick={navToggle}
-              href="#contact"
+              to="/contact"
               className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s] sm:text-[24px] "
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <header className="header fixed w-[100%] top-0 bg-[#323232B2] pt-[20px] pb-[19.15px] z-20 backdrop-blur-md">
         <div className="header-container max-w-[1275px] px-[20px] ml-auto mr-auto flex items-center justify-between">
-          <a href="#" className="logo-link flex">
-            <img src={logo} alt="" className="logo-img" />
-          </a>
+          <Link to="/" className="logo-link flex">
+            <img src={logo} alt className="logo-img" />
+          </Link>
           <img
             src={navbar}
             alt=""
@@ -63,28 +64,28 @@ export default function Header() {
           />
           <ul className="flex items-center gap-[56px] sm:hidden">
             <li className="">
-              <a
-                href="#hero"
+              <Link
+                to="/"
                 className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s]"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a
-                href="#work"
+              <Link
+                to="/work"
                 className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s]"
               >
                 Work
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s]"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

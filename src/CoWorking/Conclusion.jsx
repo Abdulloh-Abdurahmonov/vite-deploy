@@ -5,7 +5,7 @@ import img from "../img/co-img3.jpeg"
 export default function Conclusion() {
     return (
       <>
-        <section className="w-full mb-[153px]">
+        <section className="w-full pb-[153px] kl:pb-[83px]  pt-[108px] kl:pt-[114px] ">
           <div className="max-w-[1288px] w-full px-5 ml-auto mr-auto flex flex-col items-center gap-32">
             <div className="flex flex-col items-start gap-3 kl:gap-8">
               <span className="uppercase font-700 text-base leading-4 tracking-[2px] text-[#a5a5a5]">

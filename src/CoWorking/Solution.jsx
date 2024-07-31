@@ -18,7 +18,7 @@ export default function Solution() {
 
   return (
     <>
-      <section className="w-full mb-[216px] kl:mb-[228px]">
+      <section className="w-full pb-[108px] kl:pb-[114px] pt-[234px] kl:pt-[226px] ">
         <div className="flex flex-col items-start max-w-[1288px] w-full px-5 ml-auto mr-auto gap-[275px] kl:gap-[226px]">
           {lst.map(function (item, index) {
             return (
