@@ -11,18 +11,14 @@ import RootLayout from "./Layouts/RootLayout";
 function App() {
   const routes = createBrowserRouter(
     createRoutesFromElements(
-    <Route path="/" element={<RootLayout/>}>
-      <Route index element={<Home />} />,
-      <Route path="work" element={<About />} />,
-    </Route>,
-
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />,
+        <Route path="work" element={<About />} />,
+      </Route>
     )
   );
   return (
     <>
-
-
-
       <RouterProvider router={routes} />
     </>
   );
