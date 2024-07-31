@@ -17,7 +17,7 @@ export default function Home_Work() {
             href="#proj"
             className="flex items-center gap-[32px] text-[16px] text-[#DEDEDE] uppercase mb-[80px] kl:mb-10 md:capitalize "
           >
-            <img src={arrow} alt="" />
+            <img src={arrow} alt="true" />
             Featured Work
           </a>
           <div className="flex gap-[24px] items-start kl:flex-col">
@@ -26,7 +26,7 @@ export default function Home_Work() {
                 return (
                   <>
                     <a
-                      key={index}
+                      key={index  }
                       href="#"
                       target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
@@ -38,7 +38,7 @@ export default function Home_Work() {
                       </span>
                       <img
                         src={item}
-                        alt=""
+                        alt="true"
                         className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px] km:h-[450px] sm:h-[450px] sl:h-[500px] brightness-100 group-hover:brightness-50"
                       />
                     </a>
@@ -50,7 +50,7 @@ export default function Home_Work() {
               {lst2.map(function (item, index) {
                 return (
                   <>
-                    <a key={index}
+                    <a key={index+2}
                       href="#"
                       target="_blank"
                       className={`group relative max-w-[612px] z-10 `}
@@ -62,7 +62,7 @@ export default function Home_Work() {
                       </span>
                       <img
                         src={item}
-                        alt=""
+                        alt="true"
                         className="h-[888px] object-cover rounded-[4px] md:max-w-[610px] md:w-[100%] lg:h-[700px] kl:h-[600px] km:h-[450px] sm:h-[450px] sl:h-[500px] brightness-100 group-hover:brightness-50"
                       />
                     </a>

@@ -29,7 +29,7 @@ export default function Solution() {
                 <img
                   className="w-[40.5%] kl:w-full kl:h-[577px] object-cover"
                   src={item.img}
-                  alt=""
+                  alt="true"
                 />
                 <div className="flex flex-col w-[49%] kl:w-full kl:gap-8">
                   <span className="uppercase font-700 text-base leading-4 tracking-[2px] text-[#a5a5a5]">

@@ -20,7 +20,7 @@ export default function Conclusion() {
             </div>
             <img
               src={img}
-              alt=""
+              
               className="mb-[136px] object-cover w-full h-[674px]"
             />
             <a

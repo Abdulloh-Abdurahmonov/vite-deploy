@@ -20,11 +20,11 @@ export default function Home_Hero() {
               href="#" target="_blank"
               className="flex items-center gap-[16px] text-white bg-[#9D9D9D] max-w-[400px] w-[100%] h-[64px] justify-center kl:max-w-[242px] kl:h-[57px] kl:rounded-[4px] kl:text-[18px] hover:bg-[#5e5e5e] transition-all duration-300"
             >
-              <img src={email} alt="" />
+              <img src={email} alt="true" />
               hi@yourname.com
             </a>
           </div>
-          <img src={avatar} className="rounded-[50%] md:mb-16" alt="" />
+          <img src={avatar} className="rounded-[50%] md:mb-16" alt="true" />
         </div>
       </section>
     </>

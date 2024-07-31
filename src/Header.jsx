@@ -41,13 +41,13 @@ export default function Header() {
             </Link>
           </li>
           <li className="">
-            <Link
+            <a
               onClick={navToggle}
-              to="/contact"
+              href='#contact'
               className="nav-link text-[#DEDEDE] text-[18px] leading-[24.59px] font-bold hover:text-[#4f4f4f] transition-all duration-[0.3s] sm:text-[24px] "
             >
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
@@ -58,7 +58,7 @@ export default function Header() {
           </Link>
           <img
             src={navbar}
-            alt=""
+            alt="true"
             className="hidden cursor-pointer sm:flex "
             onClick={navToggle}
           />
